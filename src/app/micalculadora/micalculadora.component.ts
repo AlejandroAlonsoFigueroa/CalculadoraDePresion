@@ -13,5 +13,6 @@ export class MicalculadoraComponent implements OnInit {
   }
 
   resultado = 100;
+  titulo = "Calculadora de presión"
 
 }
