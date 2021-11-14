@@ -13,6 +13,6 @@ export class MicalculadoraComponent implements OnInit {
   }
 
   resultado = 100;
-  titulo = "Calculadora de presión"
+  titulo = "Calcular area de una piramide cuadrangular"
 
 }
