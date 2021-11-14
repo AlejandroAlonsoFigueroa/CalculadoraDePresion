@@ -4,10 +4,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { MicalculadoraComponent } from './micalculadora/micalculadora.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
-    MicalculadoraComponent
+    MicalculadoraComponent,
+   
   ],
   imports: [
     BrowserModule
