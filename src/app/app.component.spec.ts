@@ -19,13 +19,8 @@ describe('AppComponent', () => {
   it(`should have as title 'calculadoradepresion'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('calculadoradepresion');
+    expect(app.title).toEqual('Piramide cuadrangular');
   });
 
-  it('should render title', () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    fixture.detectChanges();
-    const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('calculadoradepresion app is running!');
-  });
+ 
 });
