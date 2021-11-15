@@ -9,7 +9,7 @@ describe('calcularAreaCara', () => {
                 resultado = calcularAreaCara(4,5);
 
                 // Assert
-                expect(resultado).toBe(20);
+                expect(resultado).toBe(10);
     })
 
     it('Debe retornar un decimal positivo', () => {
@@ -20,7 +20,7 @@ describe('calcularAreaCara', () => {
     resultado = calcularAreaCara(3.5,5.0);
 
     // Assert
-    expect(resultado).toBe(17.5);
+    expect(resultado).toBe(8.75);
 })
 
 it('Debe retornar el código de error -1', () => {

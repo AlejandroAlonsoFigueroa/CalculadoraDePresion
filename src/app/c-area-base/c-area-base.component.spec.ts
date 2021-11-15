@@ -10,10 +10,10 @@ describe('calcularAreaBase', () => {
     let result = 0;
     
     // Act
-    result = calcularAreaBase(2);
+    result = calcularAreaBase(4);
 
     // Assert
-    expect(result).toBe(8);
+    expect(result).toBe(16);
 })
 
 it('Should return 2.5 cm * 4 lados = 10cm', () => {
@@ -26,7 +26,7 @@ it('Should return 2.5 cm * 4 lados = 10cm', () => {
   result = calcularAreaBase(2.5);
 
   // Assert
-  expect(result).toBe(10);
+  expect(result).toBe(6.25);
 })
 
 it('Should return 0 cm * 4 lados = 0cm', () => {

@@ -5,6 +5,6 @@ export function calcularAreaCara(base: number, altura: number) {
         return -1;
     }
     let areaCara = 0;
-    areaCara = base * altura;
+    areaCara = (base * altura) /2;
     return areaCara;
 }
