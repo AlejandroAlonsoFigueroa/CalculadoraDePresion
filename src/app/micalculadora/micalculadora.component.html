@@ -1,13 +1,14 @@
 
 <h1>{{titulo}}</h1>
-<input type = "number" id = "fuerza" placeholder = "Base (en centímetros)"/>
+Lado de la base: <input type = "number" id = "fuerza" placeholder = "lado de la base (en centímetros)" [(ngModel)]="base"/>
 
 <br/><br/>
-<input type = "number" id = "superficie" placeholder = "Altura (en centímetros)"/>
+Altura:<input type = "number" id = "superficie" placeholder = "Altura (en centímetros)" [(ngModel)]="altura"/>
 <br/><br/>
 
-<button id = "miBoton">Calcular area</button>
+<button id = "miBoton" (click)= "obtenerArea()">Calcular area</button>
 
 <br/> <br/>
 <label id = "resultado">Resultado: {{resultado}}</label>
 
+ 
