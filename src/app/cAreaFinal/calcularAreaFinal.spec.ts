@@ -35,7 +35,7 @@ it('Debe retornar un -1', () => {
 })
 
 
-it('Debe retornar el mismo resultado del area parcial', () => {
+it('Debe retornar el mismo resultado de -1', () => {
     // Arrange
     let resultado = 0;
     
@@ -43,7 +43,7 @@ it('Debe retornar el mismo resultado del area parcial', () => {
     resultado = calcularAreaFinal(50.46, 0);
 
     // Assert
-    expect(resultado).toBe(resultado);
+    expect(resultado).toBe(-1);
 })
 
 
