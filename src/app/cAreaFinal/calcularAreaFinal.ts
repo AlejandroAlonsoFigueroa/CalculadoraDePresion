@@ -1,5 +1,5 @@
 export function calcularAreaFinal(areaBase: number, areaSuperior: number){
-    if(areaBase< 0 || areaSuperior<0){
+    if(areaBase< 1 || areaSuperior<1){
         return -1;
     }
     let areaFinal = 0;

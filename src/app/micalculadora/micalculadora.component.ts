@@ -20,17 +20,17 @@ export class MicalculadoraComponent implements OnInit {
   base = 0;
   altura = 0;
 
-  resultado = 100;
+  resultado = 0;
   titulo = "Calcular area de una piramide cuadrangular"
   hola(){
     alert("Hola mundo")
   }
 
   obtenerArea(){
-    // Todo funciona, bien, pero, me confundí en la formula del area superior :v
+    
 
     let areaBase = calcularAreaBase(this.base);
-    alert(areaBase);
+   
 
     let areaSuperior = calcularAreaSuperior(calcularAreaCara(this.base, this.altura));
 
